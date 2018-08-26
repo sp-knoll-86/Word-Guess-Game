@@ -1,18 +1,11 @@
+.header {
+    text-align: center;
+}
+
 .row {
-    text-align: center;
+    display: flex;
 }
 
-.container {
-    column-count: 2;
-    column-gap: 20px;
-    column-rule-style: solid;
-    column-width: 100px;
-}
-
-.col-left {
-    text-align: center;
-}
-
-.col-right {
-    text-align: center;
+.column {
+    flex: 50%;
 }

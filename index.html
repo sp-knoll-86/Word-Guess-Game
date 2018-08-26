@@ -9,21 +9,23 @@
 
     <body>
 
-        <header class="row">
+        <header class="header">
             <h1>Guess the Counrty Game</h1>
+            <h2>Any Key to start</h2>
         </header>
 
-        <div class="container">
-            <section class="col-left">
+        <div class="row">
+            <section class="column">
                 hangman info country flag on correct guess
             </section>
 
-            <section class="col-right">
-                press any key to start
-                wins:
-                losses:
-                guesses remaining:
-                letters guessed:
+            <section class="column">
+                <ul>
+                    <li id="win">wins: </li>
+                    <li id="word">current word: </li>
+                    <li id="remaining">guesses remaining: </li>
+                    <li id="guessed">letters guessed: </li>
+                </ul>
             </section>
         </div>
 
